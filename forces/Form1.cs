@@ -27,6 +27,18 @@ namespace forces
         }
 
         double asin(double x)
+        {
+            return (Math.Asin(x) * 180 / Math.PI);
+        }
+        double cos(double x)
+        {
+            return (Math.Cos(x * Math.PI / 180.0));
+        }
+
+        double acos(double x)
+        {
+            return (Math.Acos(x) * 180 / Math.PI);
+        }
     }
-        return (Math.asin(X) * 180 / Math.PI);
+
 }
